@@ -1,0 +1,142 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css");
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap");
+@import url("https://unpkg.com/bulma@0.8.0/css/bulma.min.css");
+@import url("./timeline.css");
+@import url("./buttons.css");
+
+*{
+
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: SFPro;
+    src: url("../font/SFProDisplay-Regular.ttf");
+}
+@font-face {
+    font-family:norwester;
+    src: url("../font/norwester.otf");
+}
+/*Colors*/
+
+/**/
+html{
+    scroll-behavior: smooth !important;
+}
+body{
+    font-family: "SFPro",sans-serif !important;
+    background-color:#3b055a;
+    color: #ffffff;
+    
+}
+header
+{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    right: 20px;
+    width: 100%;
+    padding: 100px 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    z-index: 10000;
+}
+.nav-bar{
+    /*display: flex;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    justify-content:stretch;
+    align-items: center;
+    width: 100%;
+    height: 120px;*/
+    background-color: #a88ace;
+    padding: 1rem;
+    }
+.navbar-burger{
+    color: rgb(68, 67, 67);
+}
+.navbar-item{
+    color:white;
+    font-weight:bold;
+    font-size: 0.5rem;
+}
+.nav-bar-logo
+{
+    /*width: 90px;
+    height: 90px;
+    align-content:space-around;*/
+    align-content: space-around;
+    max-height: 2rem !important;
+}
+@media screen and (max-width: 1023px){
+    .nav-bar-menu{
+        background-color: #010A2D;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    
+}
+
+hr{
+    border: 0;
+    margin: auto;
+    width: 80%;
+    height: 1px;
+    
+}
+/*about section*/
+
+.title{
+    margin: 1em 0 0;
+    text-align:center;
+    color: #ffffff;
+}
+.card{
+
+}
+
+.img{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+    
+}
+/*about logo*/
+.about-logo{
+    max-width: 320px;
+    max-height: 320px;
+}
+    
+
+.info{
+    text-align:center;
+}
+
+
+
+/*footer*/
+.footer{
+    background-color: #0d021f;
+    margin-bottom: 0 !important;
+    padding-bottom: 1em !important;
+    color: #209cee;
+}
+
+footer.social-icons{
+    font-size: 26px;
+    padding: 25px !important; 
+    border-style:solid;
+    border-radius: 50px;
+    border-width: 3px;
+}
+footer .social-icons:hover{
+    color: #a88ace;
+}
+
+.justify-text{
+    text-align: justify !important;
+}
